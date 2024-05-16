@@ -19,7 +19,6 @@ export default function Card({userid, id, title, body, setDatas}) {
   function handleEditBody(){
     setEditBody(true);
   }
-
   function handleTitleInput(e){
     setTitleInput(e.target.value);
     console.log(e.target.value);
