@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './NoticeBoard.css';
 import axios from 'axios';
 export default function Card({userid, id, title, body, setDatas}) {
@@ -11,6 +11,14 @@ export default function Card({userid, id, title, body, setDatas}) {
     setEditTitle(true);
 
   }
+  useEffect(() => {
+    setTitleInput(title);
+  }, [title]);
+
+  useEffect(() => {
+    setBodyInput(body);
+  }, [body]);
+
   function handleEditBody(){
     setEditBody(true);
 
@@ -77,7 +85,7 @@ export default function Card({userid, id, title, body, setDatas}) {
         </div>
         
       }
-        
+      
       {editBody ?<><textarea className='editBody' placeholder='수정 입력' value={bodyInput} onChange={(e)=>handleBodyInput(e)}/>
       <div className='editbuttons'><button onClick={onEditBody}>확인</button><button onClick={onNoEditBody}>취소</button></div></>: 
         <div className='body' onClick={handleEditBody}>{body}
