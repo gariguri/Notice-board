@@ -9,9 +9,9 @@ react에서 통신을 통한 게시판 기능 구현
 
 
 ### 2. 추가기능
-  <img width="500" height="300" alt="스크린샷 2024-05-16 오후 1 56 44" src="https://github.com/gariguri/Notice-board/assets/135303833/f54e13db-d310-4977-a998-cca7f8cf29cc">
+  <img width="400"  alt="스크린샷 2024-05-16 오후 1 56 44" src="https://github.com/gariguri/Notice-board/assets/135303833/f54e13db-d310-4977-a998-cca7f8cf29cc">
    
-  <img width="500" height="300" src="https://github.com/gariguri/Notice-board/assets/135303833/a9acbf5c-6c78-46c0-b4fd-406db28056d2">
+  <img width="400"  src="https://github.com/gariguri/Notice-board/assets/135303833/a9acbf5c-6c78-46c0-b4fd-406db28056d2">
 
 
 
@@ -28,8 +28,8 @@ react에서 통신을 통한 게시판 기능 구현
  ### 4. 수정기능
    - 제목 수정 기능
    - 내용 수정 기능
-   <img width="460" height="300" src="https://github.com/gariguri/Notice-board/assets/135303833/a90b2f58-76d0-43d4-b54d-f3a430305546">
+   <img width="400"  src="https://github.com/gariguri/Notice-board/assets/135303833/a90b2f58-76d0-43d4-b54d-f3a430305546">
    
-   <img width="460" height="300" src="https://github.com/gariguri/Notice-board/assets/135303833/d8434654-7bde-403c-bbad-7980436952bb">
+   <img width="400" src="https://github.com/gariguri/Notice-board/assets/135303833/d8434654-7bde-403c-bbad-7980436952bb">
    
 
